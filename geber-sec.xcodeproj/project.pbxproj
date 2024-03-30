@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		998F74472BB89DB5007149CA /* geber_secApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F74462BB89DB5007149CA /* geber_secApp.swift */; };
+		998F74492BB89DB5007149CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F74482BB89DB5007149CA /* ContentView.swift */; };
+		998F744B2BB89DB6007149CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998F744A2BB89DB6007149CA /* Assets.xcassets */; };
+		998F744E2BB89DB6007149CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998F744D2BB89DB6007149CA /* Preview Assets.xcassets */; };
+		998F74582BB89DB7007149CA /* geber_secTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F74572BB89DB7007149CA /* geber_secTests.swift */; };
+		998F74622BB89DB7007149CA /* geber_secUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F74612BB89DB7007149CA /* geber_secUITests.swift */; };
+		998F74642BB89DB7007149CA /* geber_secUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F74632BB89DB7007149CA /* geber_secUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		998F74542BB89DB7007149CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 998F743B2BB89DB5007149CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 998F74422BB89DB5007149CA;
+			remoteInfo = "geber-sec";
+		};
+		998F745E2BB89DB7007149CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 998F743B2BB89DB5007149CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 998F74422BB89DB5007149CA;
+			remoteInfo = "geber-sec";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		998F74432BB89DB5007149CA /* geber-sec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "geber-sec.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998F74462BB89DB5007149CA /* geber_secApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geber_secApp.swift; sourceTree = "<group>"; };
+		998F74482BB89DB5007149CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		998F744A2BB89DB6007149CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		998F744D2BB89DB6007149CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		998F74532BB89DB7007149CA /* geber-secTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "geber-secTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998F74572BB89DB7007149CA /* geber_secTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geber_secTests.swift; sourceTree = "<group>"; };
+		998F745D2BB89DB7007149CA /* geber-secUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "geber-secUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998F74612BB89DB7007149CA /* geber_secUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geber_secUITests.swift; sourceTree = "<group>"; };
+		998F74632BB89DB7007149CA /* geber_secUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geber_secUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		998F74402BB89DB5007149CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998F74502BB89DB7007149CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998F745A2BB89DB7007149CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		998F743A2BB89DB5007149CA = {
+			isa = PBXGroup;
+			children = (
+				998F74452BB89DB5007149CA /* geber-sec */,
+				998F74562BB89DB7007149CA /* geber-secTests */,
+				998F74602BB89DB7007149CA /* geber-secUITests */,
+				998F74442BB89DB5007149CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		998F74442BB89DB5007149CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				998F74432BB89DB5007149CA /* geber-sec.app */,
+				998F74532BB89DB7007149CA /* geber-secTests.xctest */,
+				998F745D2BB89DB7007149CA /* geber-secUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		998F74452BB89DB5007149CA /* geber-sec */ = {
+			isa = PBXGroup;
+			children = (
+				998F74462BB89DB5007149CA /* geber_secApp.swift */,
+				998F74482BB89DB5007149CA /* ContentView.swift */,
+				998F744A2BB89DB6007149CA /* Assets.xcassets */,
+				998F744C2BB89DB6007149CA /* Preview Content */,
+			);
+			path = "geber-sec";
+			sourceTree = "<group>";
+		};
+		998F744C2BB89DB6007149CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				998F744D2BB89DB6007149CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		998F74562BB89DB7007149CA /* geber-secTests */ = {
+			isa = PBXGroup;
+			children = (
+				998F74572BB89DB7007149CA /* geber_secTests.swift */,
+			);
+			path = "geber-secTests";
+			sourceTree = "<group>";
+		};
+		998F74602BB89DB7007149CA /* geber-secUITests */ = {
+			isa = PBXGroup;
+			children = (
+				998F74612BB89DB7007149CA /* geber_secUITests.swift */,
+				998F74632BB89DB7007149CA /* geber_secUITestsLaunchTests.swift */,
+			);
+			path = "geber-secUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		998F74422BB89DB5007149CA /* geber-sec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998F74672BB89DB7007149CA /* Build configuration list for PBXNativeTarget "geber-sec" */;
+			buildPhases = (
+				998F743F2BB89DB5007149CA /* Sources */,
+				998F74402BB89DB5007149CA /* Frameworks */,
+				998F74412BB89DB5007149CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "geber-sec";
+			productName = "geber-sec";
+			productReference = 998F74432BB89DB5007149CA /* geber-sec.app */;
+			productType = "com.apple.product-type.application";
+		};
+		998F74522BB89DB7007149CA /* geber-secTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998F746A2BB89DB7007149CA /* Build configuration list for PBXNativeTarget "geber-secTests" */;
+			buildPhases = (
+				998F744F2BB89DB7007149CA /* Sources */,
+				998F74502BB89DB7007149CA /* Frameworks */,
+				998F74512BB89DB7007149CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				998F74552BB89DB7007149CA /* PBXTargetDependency */,
+			);
+			name = "geber-secTests";
+			productName = "geber-secTests";
+			productReference = 998F74532BB89DB7007149CA /* geber-secTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		998F745C2BB89DB7007149CA /* geber-secUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998F746D2BB89DB7007149CA /* Build configuration list for PBXNativeTarget "geber-secUITests" */;
+			buildPhases = (
+				998F74592BB89DB7007149CA /* Sources */,
+				998F745A2BB89DB7007149CA /* Frameworks */,
+				998F745B2BB89DB7007149CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				998F745F2BB89DB7007149CA /* PBXTargetDependency */,
+			);
+			name = "geber-secUITests";
+			productName = "geber-secUITests";
+			productReference = 998F745D2BB89DB7007149CA /* geber-secUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		998F743B2BB89DB5007149CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					998F74422BB89DB5007149CA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					998F74522BB89DB7007149CA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 998F74422BB89DB5007149CA;
+					};
+					998F745C2BB89DB7007149CA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 998F74422BB89DB5007149CA;
+					};
+				};
+			};
+			buildConfigurationList = 998F743E2BB89DB5007149CA /* Build configuration list for PBXProject "geber-sec" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 998F743A2BB89DB5007149CA;
+			productRefGroup = 998F74442BB89DB5007149CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				998F74422BB89DB5007149CA /* geber-sec */,
+				998F74522BB89DB7007149CA /* geber-secTests */,
+				998F745C2BB89DB7007149CA /* geber-secUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		998F74412BB89DB5007149CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998F744E2BB89DB6007149CA /* Preview Assets.xcassets in Resources */,
+				998F744B2BB89DB6007149CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998F74512BB89DB7007149CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998F745B2BB89DB7007149CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		998F743F2BB89DB5007149CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998F74492BB89DB5007149CA /* ContentView.swift in Sources */,
+				998F74472BB89DB5007149CA /* geber_secApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998F744F2BB89DB7007149CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998F74582BB89DB7007149CA /* geber_secTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998F74592BB89DB7007149CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998F74642BB89DB7007149CA /* geber_secUITestsLaunchTests.swift in Sources */,
+				998F74622BB89DB7007149CA /* geber_secUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		998F74552BB89DB7007149CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 998F74422BB89DB5007149CA /* geber-sec */;
+			targetProxy = 998F74542BB89DB7007149CA /* PBXContainerItemProxy */;
+		};
+		998F745F2BB89DB7007149CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 998F74422BB89DB5007149CA /* geber-sec */;
+			targetProxy = 998F745E2BB89DB7007149CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		998F74652BB89DB7007149CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		998F74662BB89DB7007149CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		998F74682BB89DB7007149CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"geber-sec/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurulhd.geber-sec";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		998F74692BB89DB7007149CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"geber-sec/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurulhd.geber-sec";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		998F746B2BB89DB7007149CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurulhd.geber-secTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geber-sec.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/geber-sec";
+			};
+			name = Debug;
+		};
+		998F746C2BB89DB7007149CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurulhd.geber-secTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geber-sec.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/geber-sec";
+			};
+			name = Release;
+		};
+		998F746E2BB89DB7007149CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurulhd.geber-secUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "geber-sec";
+			};
+			name = Debug;
+		};
+		998F746F2BB89DB7007149CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurulhd.geber-secUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "geber-sec";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		998F743E2BB89DB5007149CA /* Build configuration list for PBXProject "geber-sec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998F74652BB89DB7007149CA /* Debug */,
+				998F74662BB89DB7007149CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		998F74672BB89DB7007149CA /* Build configuration list for PBXNativeTarget "geber-sec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998F74682BB89DB7007149CA /* Debug */,
+				998F74692BB89DB7007149CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		998F746A2BB89DB7007149CA /* Build configuration list for PBXNativeTarget "geber-secTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998F746B2BB89DB7007149CA /* Debug */,
+				998F746C2BB89DB7007149CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		998F746D2BB89DB7007149CA /* Build configuration list for PBXNativeTarget "geber-secUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998F746E2BB89DB7007149CA /* Debug */,
+				998F746F2BB89DB7007149CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 998F743B2BB89DB5007149CA /* Project object */;
+}
