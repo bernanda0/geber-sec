@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0EAB38FF-93E5-4A65-A4E9-91B3FEBFC54C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "354303F7-8CDC-40F8-9435-0E97D0786309"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/geber-sec-gbkjvxkukuwcirdznqjcvxhtvtnd/SourcePackages/checkouts/swifty-redis/Sources/SwiftyRedis/PubSub.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "PubSubConnection"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "354303F7-8CDC-40F8-9435-0E97D0786309 - 6d7f00c1dc40d240"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftyRedis.PubSubConnection.deinit"
+                  moduleName = "geber-sec"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bernanda/Library/Developer/Xcode/DerivedData/geber-sec-gbkjvxkukuwcirdznqjcvxhtvtnd/SourcePackages/checkouts/swifty-redis/Sources/SwiftyRedis/PubSub.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "354303F7-8CDC-40F8-9435-0E97D0786309 - 76c0523f20179207"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftyRedis.PubSubConnection.__deallocating_deinit"
+                  moduleName = "geber-sec"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bernanda/Library/Developer/Xcode/DerivedData/geber-sec-gbkjvxkukuwcirdznqjcvxhtvtnd/SourcePackages/checkouts/swifty-redis/Sources/SwiftyRedis/PubSub.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

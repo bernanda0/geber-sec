@@ -14,18 +14,13 @@ struct Event {
     let timestamp: Date
 }
 
-struct Ref {
-    let location: String
-    let numberOfCalls: Int
-    let latestCall: String
+struct Row {
+    var location: SectionLocation
+    var numberOfCalls: Int
+    var latestCall: String
 }
 
 enum SectionLocation {
     case s1, s2, s3
 }
 
-let mock_data = [
-        Ref(location: "Location A", numberOfCalls: 10, latestCall: "09:00:00"),
-        Ref(location: "Location B", numberOfCalls: 5, latestCall: "09:00:12"),
-        Ref(location: "Location C", numberOfCalls: 15, latestCall: "09:00:13")
-]

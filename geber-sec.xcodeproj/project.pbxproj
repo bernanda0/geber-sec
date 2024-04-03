@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		992E6E1C2BBB942A005B7E27 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 992E6E1B2BBB942A005B7E27 /* FirebaseMessaging */; };
+		992E6E272BBBAF26005B7E27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 992E6E262BBBAF26005B7E27 /* GoogleService-Info.plist */; };
+		992E6E292BBBAF65005B7E27 /* FirebaseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992E6E282BBBAF65005B7E27 /* FirebaseDelegate.swift */; };
+		992E6E2C2BBBB4CE005B7E27 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992E6E2B2BBBB4CE005B7E27 /* NotificationManager.swift */; };
 		998F74472BB89DB5007149CA /* geber_secApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F74462BB89DB5007149CA /* geber_secApp.swift */; };
 		998F74492BB89DB5007149CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F74482BB89DB5007149CA /* ContentView.swift */; };
 		998F744B2BB89DB6007149CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998F744A2BB89DB6007149CA /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 		998F74642BB89DB7007149CA /* geber_secUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F74632BB89DB7007149CA /* geber_secUITestsLaunchTests.swift */; };
 		998F74732BB8A095007149CA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F74722BB8A095007149CA /* Utilities.swift */; };
 		998F74772BB8A10B007149CA /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F74762BB8A10B007149CA /* Event.swift */; };
+		998F74812BB92146007149CA /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F74802BB92146007149CA /* ContentViewModel.swift */; };
+		998F74842BB92336007149CA /* SwiftyRedis in Frameworks */ = {isa = PBXBuildFile; productRef = 998F74832BB92336007149CA /* SwiftyRedis */; };
+		998F74862BB924BF007149CA /* EnvManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F74852BB924BF007149CA /* EnvManager.swift */; };
+		99C3FA0D2BB935E000BFC9EA /* SwiftRedis in Frameworks */ = {isa = PBXBuildFile; productRef = 99C3FA0C2BB935E000BFC9EA /* SwiftRedis */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		992E6E232BBBAE78005B7E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		992E6E262BBBAF26005B7E27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		992E6E282BBBAF65005B7E27 /* FirebaseDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDelegate.swift; sourceTree = "<group>"; };
+		992E6E2B2BBBB4CE005B7E27 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		998F74432BB89DB5007149CA /* geber-sec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "geber-sec.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		998F74462BB89DB5007149CA /* geber_secApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geber_secApp.swift; sourceTree = "<group>"; };
 		998F74482BB89DB5007149CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +60,10 @@
 		998F74632BB89DB7007149CA /* geber_secUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geber_secUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		998F74722BB8A095007149CA /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		998F74762BB8A10B007149CA /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		998F74802BB92146007149CA /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		998F74852BB924BF007149CA /* EnvManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvManager.swift; sourceTree = "<group>"; };
+		99BDDE382BBD1EB600BF1839 /* env.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = env.xcconfig; sourceTree = "<group>"; };
+		99C3FA0A2BB92EB800BFC9EA /* geber-sec.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "geber-sec.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992E6E1C2BBB942A005B7E27 /* FirebaseMessaging in Frameworks */,
+				99C3FA0D2BB935E000BFC9EA /* SwiftRedis in Frameworks */,
+				998F74842BB92336007149CA /* SwiftyRedis in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,13 +94,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		992E6E1A2BBB940B005B7E27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		992E6E252BBBAEC0005B7E27 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				998F74852BB924BF007149CA /* EnvManager.swift */,
+				992E6E2B2BBBB4CE005B7E27 /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		998F743A2BB89DB5007149CA = {
 			isa = PBXGroup;
 			children = (
+				99BDDE382BBD1EB600BF1839 /* env.xcconfig */,
 				998F74452BB89DB5007149CA /* geber-sec */,
 				998F74562BB89DB7007149CA /* geber-secTests */,
 				998F74602BB89DB7007149CA /* geber-secUITests */,
 				998F74442BB89DB5007149CA /* Products */,
+				992E6E1A2BBB940B005B7E27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +135,15 @@
 		998F74452BB89DB5007149CA /* geber-sec */ = {
 			isa = PBXGroup;
 			children = (
+				992E6E262BBBAF26005B7E27 /* GoogleService-Info.plist */,
+				992E6E232BBBAE78005B7E27 /* Info.plist */,
+				99C3FA0A2BB92EB800BFC9EA /* geber-sec.entitlements */,
 				998F74462BB89DB5007149CA /* geber_secApp.swift */,
-				998F74702BB8A069007149CA /* Tools */,
-				998F74482BB89DB5007149CA /* ContentView.swift */,
-				998F744A2BB89DB6007149CA /* Assets.xcassets */,
 				998F74752BB8A0F8007149CA /* Models */,
+				998F747F2BB9211F007149CA /* Views */,
+				992E6E252BBBAEC0005B7E27 /* Managers */,
+				998F74702BB8A069007149CA /* Utils */,
+				998F744A2BB89DB6007149CA /* Assets.xcassets */,
 				998F744C2BB89DB6007149CA /* Preview Content */,
 			);
 			path = "geber-sec";
@@ -133,12 +174,13 @@
 			path = "geber-secUITests";
 			sourceTree = "<group>";
 		};
-		998F74702BB8A069007149CA /* Tools */ = {
+		998F74702BB8A069007149CA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				992E6E282BBBAF65005B7E27 /* FirebaseDelegate.swift */,
 				998F74722BB8A095007149CA /* Utilities.swift */,
 			);
-			path = Tools;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		998F74752BB8A0F8007149CA /* Models */ = {
@@ -147,6 +189,15 @@
 				998F74762BB8A10B007149CA /* Event.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		998F747F2BB9211F007149CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				998F74482BB89DB5007149CA /* ContentView.swift */,
+				998F74802BB92146007149CA /* ContentViewModel.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +216,11 @@
 			dependencies = (
 			);
 			name = "geber-sec";
+			packageProductDependencies = (
+				998F74832BB92336007149CA /* SwiftyRedis */,
+				99C3FA0C2BB935E000BFC9EA /* SwiftRedis */,
+				992E6E1B2BBB942A005B7E27 /* FirebaseMessaging */,
+			);
 			productName = "geber-sec";
 			productReference = 998F74432BB89DB5007149CA /* geber-sec.app */;
 			productType = "com.apple.product-type.application";
@@ -237,6 +293,11 @@
 				Base,
 			);
 			mainGroup = 998F743A2BB89DB5007149CA;
+			packageReferences = (
+				998F74822BB92336007149CA /* XCRemoteSwiftPackageReference "swifty-redis" */,
+				99C3FA0B2BB935E000BFC9EA /* XCRemoteSwiftPackageReference "Kitura-redis" */,
+				992E6E192BBB93FF005B7E27 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 998F74442BB89DB5007149CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -255,6 +316,7 @@
 			files = (
 				998F744E2BB89DB6007149CA /* Preview Assets.xcassets in Resources */,
 				998F744B2BB89DB6007149CA /* Assets.xcassets in Resources */,
+				992E6E272BBBAF26005B7E27 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +344,11 @@
 				998F74772BB8A10B007149CA /* Event.swift in Sources */,
 				998F74732BB8A095007149CA /* Utilities.swift in Sources */,
 				998F74492BB89DB5007149CA /* ContentView.swift in Sources */,
+				998F74862BB924BF007149CA /* EnvManager.swift in Sources */,
 				998F74472BB89DB5007149CA /* geber_secApp.swift in Sources */,
+				998F74812BB92146007149CA /* ContentViewModel.swift in Sources */,
+				992E6E2C2BBBB4CE005B7E27 /* NotificationManager.swift in Sources */,
+				992E6E292BBBAF65005B7E27 /* FirebaseDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +387,7 @@
 /* Begin XCBuildConfiguration section */
 		998F74652BB89DB7007149CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BDDE382BBD1EB600BF1839 /* env.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -384,6 +451,7 @@
 		};
 		998F74662BB89DB7007149CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BDDE382BBD1EB600BF1839 /* env.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -443,11 +511,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "geber-sec/geber-sec.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"geber-sec/Preview Content\"";
+				DEVELOPMENT_TEAM = 5V847CY3JM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "geber-sec/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,7 +529,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nurulhd.geber-sec";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurulhd.GeBer-Sec";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -471,11 +542,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "geber-sec/geber-sec.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"geber-sec/Preview Content\"";
+				DEVELOPMENT_TEAM = 5V847CY3JM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "geber-sec/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -486,7 +560,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nurulhd.geber-sec";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurulhd.GeBer-Sec";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -606,6 +680,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		992E6E192BBB93FF005B7E27 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.23.1;
+			};
+		};
+		998F74822BB92336007149CA /* XCRemoteSwiftPackageReference "swifty-redis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michaelvanstraten/swifty-redis.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		99C3FA0B2BB935E000BFC9EA /* XCRemoteSwiftPackageReference "Kitura-redis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kitura/Kitura-redis.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.200;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		992E6E1B2BBB942A005B7E27 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 992E6E192BBB93FF005B7E27 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		998F74832BB92336007149CA /* SwiftyRedis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 998F74822BB92336007149CA /* XCRemoteSwiftPackageReference "swifty-redis" */;
+			productName = SwiftyRedis;
+		};
+		99C3FA0C2BB935E000BFC9EA /* SwiftRedis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99C3FA0B2BB935E000BFC9EA /* XCRemoteSwiftPackageReference "Kitura-redis" */;
+			productName = SwiftRedis;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 998F743B2BB89DB5007149CA /* Project object */;
 }
